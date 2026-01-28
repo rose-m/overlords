@@ -1,0 +1,19 @@
+{
+  "name": "enam-tools",
+  "owner": {
+    "name": "Enam Co. Claude Tools",
+    "email": "engineering@enam.co"
+  },
+  "plugins": [
+    {
+      "name": "sdd",
+      "source": "./plugins/sdd",
+      "description": "Plugin for spec-driven development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Michael Rose",
+        "email": "michael@enam.co"
+      }
+    }
+  ]
+}

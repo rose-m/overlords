@@ -1,0 +1,9 @@
+{
+    "name": "sdd",
+    "description": "Plugin for spec-driven development",
+    "version": "1.0.0",
+    "author": {
+        "name": "Michael Rose",
+        "email": "michael@enam.co"
+    }
+}
