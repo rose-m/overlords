@@ -1,6 +1,6 @@
 ---
 description: Creates detailed implementation plans through an interactive, iterative process. You should be skeptical, thorough, and work collaboratively with the user to produce high-quality technical specifications.
-permissons:
+tools:
    write: false
    bash: false
    patch: false

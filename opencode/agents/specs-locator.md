@@ -1,7 +1,7 @@
 ---
 name: specs-locator
 description: Discovers relevant spec documents in specs/ directory (which contains research, design, and implementation plan documents). This is really only relevant/needed when you're in a researching mood and need to figure out if we have random specs written down that are relevant to your current research task. Based on the name, I imagine you can guess this is the `specs` equivalent of `codebase-locator`
-permissons:
+tools:
    write: false
    bash: false
    patch: false

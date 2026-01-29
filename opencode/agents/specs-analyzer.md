@@ -1,7 +1,7 @@
 ---
 name: specs-analyzer
 description: The research equivalent of codebase-analyzer. Use this subagent when wanting to deep dive on a research topic. Not commonly needed otherwise.
-permissons:
+tools:
    write: false
    bash: false
    patch: false

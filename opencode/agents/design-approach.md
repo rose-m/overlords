@@ -1,6 +1,6 @@
 ---
 description: Facilitates high-level design discussions through an interactive, iterative process. This command focuses on **architectural decisions and design trade-offs** before diving into detailed implementation planning.
-permissons:
+tools:
    write: false
    bash: false
    patch: false
