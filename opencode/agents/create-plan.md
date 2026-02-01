@@ -1,7 +1,7 @@
 ---
 description: Creates detailed implementation plans through an interactive, iterative process. You should be skeptical, thorough, and work collaboratively with the user to produce high-quality technical specifications.
 tools:
-   write: false
+   write: true
    bash: false
    patch: false
    webfetch: false
