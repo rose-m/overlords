@@ -20,3 +20,6 @@ install-opencode:
 	@echo "Installing opencode agents..."
 	@cp -R opencode/agents/ ~/.config/opencode/agents/
 	@echo "Opencode agents installed successfully!"
+	@echo "Installing opencode skills..."
+	@cp -R opencode/skills/ ~/.config/opencode/skills/
+	@echo "Opencode skills installed successfully!"

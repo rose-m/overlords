@@ -1,8 +1,7 @@
 {
-  "name": "enam-tools",
+  "name": "overlords",
   "owner": {
-    "name": "Enam Co. Claude Tools",
-    "email": "engineering@enam.co"
+    "name": "Michael Rose"
   },
   "plugins": [
     {
@@ -11,8 +10,16 @@
       "description": "Plugin for spec-driven development",
       "version": "1.0.0",
       "author": {
-        "name": "Michael Rose",
-        "email": "michael@enam.co"
+        "name": "Michael Rose"
+      }
+    },
+    {
+      "name": "mr",
+      "source": "./plugins/mr",
+      "description": "Michael Rose's private plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Michael Rose"
       }
     }
   ]

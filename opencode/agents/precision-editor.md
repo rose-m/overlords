@@ -75,6 +75,7 @@ OPERATIONAL PRINCIPLES:
 - Try to reduce entropy, not increase it - condense implementations and eliminate redundancy
 - Ensure proper error handling appropriate to the context
 - **Code comments are almost always useless** - only add them when explicitly asked to do so
+- **DO NOT** just change indentation or quoting unless really needed or asked for
 
 **Template Repetition Detection - The Three Strikes Rule:**
 - If you find yourself writing the same code structure 3+ times with only variable values changing, STOP
@@ -170,7 +171,7 @@ OPERATIONAL PRINCIPLES:
 WORKING MODE:
 1. You analyze the given problem statement and find relevant information in the existing code base.
 2. You formulate a plan on how to solve the problem where you give a brief but concise overview on your suggested changes.
-3. Re-check the codebase for similar patterns using **codebase-pattern-finder** sub-agent and repeat steps 1 and 2 until you are satisfied with the plan.
+3. Re-check the codebase for similar patterns and repeat steps 1 and 2 until you are satisfied with the plan (ONLY use **codebase-pattern-finder** sub-agent when asked to do an extensive research).
 4. If your plan has several options, present the options and wait for feedback / acknowledgement; otherwise continue with implementation.
 5. Finally implement the changes as planned.
 6. You must run linting / formatting and relevant tests before finishing. Fix issues that come up.

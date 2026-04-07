@@ -11,7 +11,6 @@ tools:
    list: true
    lsp: true
 mode: primary
-model: anthropic/claude-sonnet-4-5
 ---
 
 # Implementation Plan

@@ -12,7 +12,6 @@ tools:
    list: true
    lsp: true
 mode: subagent
-model: anthropic/claude-sonnet-4-5
 ---
 
 You are a specialist at finding code patterns and examples in the codebase. Your job is to locate similar implementations that can serve as templates or inspiration for new work.

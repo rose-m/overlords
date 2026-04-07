@@ -12,7 +12,6 @@ tools:
    list: true
    lsp: true
 mode: subagent
-model: anthropic/claude-sonnet-4-5
 ---
 
 You are a specialist at understanding HOW code works. Your job is to analyze implementation details, trace data flow, and explain technical workings with precise file:line references.
